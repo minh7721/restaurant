@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center !important;
+}
+.mt-16{
+    margin-top: 16px;
+}
+
+
+
+/* header */
+.header{   
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    box-shadow: 2px 2px 5px #ccc; 
+}
+
+
+.logo{
+    width: 50%;
+}
+
+.text-color{  
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
+
+.text-color li a{
+   color: #ff6b81 !important;
+}
+
+.text-right{
+    justify-content: right;
+}
+
+.header__btn{
+    justify-content: right !important;
+}
+
+/* food search */
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 56px;
+    padding: 9% 0;
+}
+.container__food-search{
+    width: 80%;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.food-search__flex{
+    display: flex;
+    justify-content: center;
+}
+
+.food-search__input{
+       padding: 12px;
+       width: 60%;
+       margin-right: 8px;
+       border-radius: 10px;
+       border: none;
+}
+
+.food-search-btn{
+    width: 90px;
+    border-radius: 10px !important;
+    border: none;
+    background-color: #ff6b81;
+    color: #fff;
+}
+
+.food-search-btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* explore */
+.explore-food{
+    margin-bottom: 96px;
+}
+
+.explore__title{
+     font-weight: bold;
+     line-height: 1.5;
+     font-size: 28px;
+     margin: 48px 0;
+}
+.explore__img{
+    
+}
+.explore__food-tag{
+    position: relative;
+    margin-top: 30px;
+}
+
+.explore__img_food{
+   border-radius: 15px !important;
+}
+
+.explore__food-name{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+    font-size: 24px;
+}
+
+
+/* Food menu */
+
+.food-menu{
+    padding-top: 48px;
+    background-color: #ccc;
+}
+.food-menu__title{
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.food-menu__container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.info-food{
+    border-radius: 10px !important;
+    margin: 8px;
+    padding: 2%;
+}
+
+.btn-order{
+    font-size: 16px;
+    padding: 8px;
+    width: 120px;
+    background-color: #ff6b81;
+    color: #fff;
+}
+
+.btn-order:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Order */
+
+.food-order {
+    display: flex;
+    width: 100%;
+    background-color: #47b4d1;
+    padding: 4% 0;
+    overflow: hidden;
+}
+.img-pizza{
+    overflow: hidden;
+}
+.img-pizza img{
+     background-size: 100%;
+     margin-left: -10px;
+}
+
+.food-order__title{
+    margin-top: 80px;
+}
+.food-order__title p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.food-order__form{
+    background-color: unset;
+    border: none;
+}
+fieldset{
+    width: 65%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+fieldset legend{
+    margin: auto;
+
+}
+
+.order-img-food{
+    border-radius: 10px !important;
+    margin-top: 20px;
+    margin-right: 48px;
+    height: 70%;
+}
+
+.food-order__info{
+    margin-left: -7%;
+    padding-bottom: 5%;
+
+}
+
+.food-order__info input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding: 4px 8px;
+}
+
+.delivery{
+    margin-top: 32px;
+    width: 100%;
+}
+
+.delivery p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.delivery textarea{
+    width: 100%;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+}
+
+.delivery__btn{
+    background-color: #ff6b81;
+    color: #fff;
+    border: none;
+    margin-top: -0.75rem;
+    margin-bottom: 0.5rem;        
+}
+
+.delivery__btn:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* footer */
+#footer{
+    padding-top: 32px;
+}
+.social{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.social a{
+  padding: 1%;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #ff6b81;
+}

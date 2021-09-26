@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>MinhHN</title>
+</head>
+<body>
+<!-- Start header -->
+<div id="header">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./dashboard.html">Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./admin_Categories.html">Category</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./admin_food.html">Food</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Logout</a>
+          </li>
+      </ul>
+</div>
+<!-- End header -->
+<!-- Start content -->
+<div class="container-fluid" id="content">
+    <div class="container">
+        <h2>Manage Food</h2>
+        <div class="row">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col-1" scope="col">S.N.</th>
+                    <th class="col-1" scope="col">Food</th>
+                    <th class="col-1" scope="col">Price</th>
+                    <th class="col-1" scope="col">Qty</th>
+                    <th class="col-1" scope="col">Total</th>
+                    <th class="col-2" scope="col">Order Date</th>
+                    <th class="col-1" scope="col">Status</th>
+                    <th class="col-1" scope="col">Customer Name</th>
+                    <th class="col-1" scope="col">Contact</th>
+                    <th class="col-1" scope="col">Email</th>
+                    <th class="col-1" scope="col">Address</th>
+                    <th class="col" scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody class="content__body-user">
+                  <tr class="align-middle">
+                    <th scope="row">1</th>
+                    <td>Mixed Pizza</td>
+                    <td>$5.00</td>
+                    <td>2</td>
+                    <td>20.00</td>
+                    <td>2020-11-30
+                        <br>
+                        04:07:17
+                    </td>
+                    <td class="text-success">Delivered</td>
+                    <td>Jana Bush</td>
+                    <td>0123456543</td>
+                    <td>abc123@gmail.com</td>
+                    <td>Ha Noi, Viet Nam</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Order</button>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <th scope="row">2</th>
+                    <td>Best Burger</td>
+                    <td>$10.00</td>
+                    <td>4</td>
+                    <td>20.00</td>
+                    <td>2020-11-30
+                        <br>
+                        04:07:17
+                    </td>
+                    <td class="text-success">Delivered</td>
+                    <td>Do Van Xuan</td>
+                    <td>0438247</td>
+                    <td>dvxuan@gmail.com</td>
+                    <td>Ninh Binh, Viet Nam</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Order</button>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <th scope="row">3</th>
+                    <td>Sadeko Momo</td>
+                    <td>$15.00</td>
+                    <td>3</td>
+                    <td>45.00</td>
+                    <td>2020-11-30
+                        <br>
+                        04:07:17
+                    </td>
+                    <td class="text-danger">Cancelled</td>
+                    <td>Minh HN</td>
+                    <td>0123324543</td>
+                    <td>minh@gmail.com</td>
+                    <td>Ha Noi, Viet Nam</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Order</button>
+                          </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+<!-- End content -->
+<!-- Start footer -->
+<div id="footer" class="justify-content-center nav text-white ">
+    <div class="reserved">
+        <p>2021 All rights reserved, Food House. Developed By - <a href="https://www.facebook.com/HNMinh77/">MinhHN</a></p>
+    </div>
+</div>
+<!-- End footer -->
+
+      <script src="../bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

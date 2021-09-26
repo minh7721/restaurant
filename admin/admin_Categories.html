@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <title>MinhHN</title>
+</head>
+<body>
+<!-- Start header -->
+<div id="header">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./dashboard.html">Admin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Category</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./admin_food.html">Food</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./admin_order.html">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Logout</a>
+          </li>
+      </ul>
+</div>
+<!-- End header -->
+<!-- Start content -->
+<div class="container-fluid" id="content">
+    <div class="container">
+        <h2>Manage Category</h2>
+        <button class="btn btn-primary" type="button" style="margin-bottom: 32px;">Add Category</button>
+        <div class="row">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col-1" scope="col">S.N.</th>
+                    <th class="col-2" scope="col">Title</th>
+                    <th class="col-2" scope="col">Image</th>
+                    <th class="col-1" scope="col">Featured</th>
+                    <th class="col-1" scope="col">Active</th>
+                    <th class="col" scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody class="content__body-user">
+                  <tr class="align-middle">
+                    <th scope="row">1</th>
+                    <td>Pizza</td>
+                    <td><img src="../images/menu-pizza.jpg" alt=""></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Category</button>
+                            <button type="button" class="btn btn-danger text-white me-2">Delete Category</button>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr class="align-middle">
+                    <th scope="row">2</th>
+                    <td>Burger</td>
+                    <td><img src="../images/menu-burger.jpg" alt=""></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Category</button>
+                            <button type="button" class="btn btn-danger text-white me-2">Delete Category</button>
+                          </div>
+                    </td>
+                  </tr>                 
+                   <tr class="align-middle">
+                    <th scope="row">3</th>
+                    <td>Momo</td>
+                    <td><img src="../images/menu-momo.jpg" alt=""></td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-success text-white me-2">Update Category</button>
+                            <button type="button" class="btn btn-danger text-white me-2">Delete Category</button>
+                          </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+<!-- End content -->
+<!-- Start footer -->
+<div id="footer" class="justify-content-center nav text-white ">
+    <div class="reserved">
+        <p>2021 All rights reserved, Food House. Developed By - <a href="https://www.facebook.com/HNMinh77/">MinhHN</a></p>
+    </div>
+</div>
+<!-- End footer -->
+
+      <script src="../bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/MinhHN.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Restaurant</title>
+</head>
+
+<body>
+  <!-- Start header -->
+  <div class="container-fluid header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-6">
+          <img src="./images/logo.png" class="img-fluid logo" alt="...">
+        </div>
+        <div class="col-md-8">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid header__btn">
+              <!-- <a class="navbar-brand" href="#">HOME</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-right" id="navbarNav">
+                <ul class="navbar-nav text-color">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./categories.html">Categories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Foods</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active disabled">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End header -->
+  <!-- Start search food -->
+  <div class="container-fluid food-search">
+    <div class="container container__food-search">
+      <div class="row">
+        <div class="food-search__flex">
+          <input type="text" placeholder="Search for food..." id="usr" class="form-control food-search__input">
+          <button type="submit" class="btn btn-primary rounded-pill btn-block shadow-sm food-search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End search food -->
+
+  <!-- Start food menu -->
+  <div class="container-fluid food-menu text-center">
+    <div class="container">
+      <p class="food-menu__title">Food Menu</p>
+      <div class="food-menu__container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5 card info-food" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/menu-burger.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="text-start" style="font-weight: bold;padding-bottom: 8px;">Burger</h3>
+                  <p class="text-start">$2.3</p>
+                  <p class="text-start" style="opacity: 0.8;">Made with Italian Sauce, Chicken and organice vegetables
+                  </p>
+                  <a href="./order.html"><button class="float-start rounded border-0 btn-order">Order now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 card info-food" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/menu-pizza.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="text-start" style="font-weight: bold;padding-bottom: 8px;">Pizza</h3>
+                  <p class="text-start">$2.3</p>
+                  <p class="text-start" style="opacity: 0.8;">Made with Italian Sauce, Chicken and organice vegetables
+                  </p>
+                  <a href="./order.html"><button class="float-start rounded border-0 btn-order">Order now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="padding-bottom: 56px;">
+          <div class="col-md-5 card info-food" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/menu-burger.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="text-start" style="font-weight: bold;padding-bottom: 8px;">Burger</h3>
+                  <p class="text-start">$2.3</p>
+                  <p class="text-start" style="opacity: 0.8;">Made with Italian Sauce, Chicken and organice vegetables
+                  </p>
+                  <a href="./order.html"><button class="float-start rounded border-0 btn-order">Order now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 card info-food" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/menu-momo.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="text-start" style="font-weight: bold;padding-bottom: 8px;">Momo</h3>
+                  <p class="text-start">$2.3</p>
+                  <p class="text-start" style="opacity: 0.8;">Made with Italian Sauce, Chicken and organice vegetables
+                  </p>
+                  <a href="./order.html"><button class="float-start rounded border-0 btn-order">Order now</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End food menu -->
+  <!-- Start Contact -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="social">
+        <a href="https://www.facebook.com/HNMinh77"><img
+            src="https://img.icons8.com/color/48/000000/facebook-circled--v3.png" /></a>
+        <a href="https://www.instagram.com/minhhn_77/"><img
+            src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+        <a href="https://vt.tiktok.com/ZSJEgqUD3/"><img src="https://img.icons8.com/color/48/000000/tiktok.png" /></a>
+      </div>
+      <p class="copyright">Powered by <a href="https://www.facebook.com/HNMinh77/">MinhHN</a></p>
+    </div>
+  </div>
+
+  <!-- End contact -->
+  <script src="./bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

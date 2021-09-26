@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/MinhHN.jpg">
+    <link rel="stylesheet" href="./bootstrap-5.1.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Order</title>
+</head>
+
+<body>
+    <!-- Start header -->
+    <div class="container-fluid header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <img src="./images/logo.png" class="img-fluid logo" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid header__btn">
+                            <!-- <a class="navbar-brand" href="#">HOME</a> -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse text-right" id="navbarNav">
+                                <ul class="navbar-nav text-color">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./categories.html">Categories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./menu.html">Foods</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active disabled" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <!-- Start food-order -->
+    <div class="container-fluid food-order">
+        <div class="col-3 img-pizza">
+            <img src="./images/bg-order.jpg" alt="">
+        </div>
+        <div class="col text-center">
+            <div class="row food-order__title">
+                <p>Fill this form to confirm your order.</p>
+            </div>
+            <div class="row selected-food">
+                <fieldset>
+                    <legend>Selected Food</legend>
+                    <div class="card food-order__form">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/menu-pizza.jpg" class="img-fluid rounded-start order-img-food"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8 food-order__info">
+                                <div class="card-body">
+                                    <h3 class="text-start" style="font-weight: bold;padding-bottom: 8px;">Food Title
+                                    </h3>
+                                    <p class="text-start">$2.3</p>
+                                    <p class="text-start" style="font-weight: bold;">Quantity</p>
+                                    <input type="number" name="Quantity" min="0" max="10" value="1" width="100px"
+                                        class="float-start quantity-food">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="row delivery">
+                <fieldset class="">
+                    <legend class="">Delivery Details</legend>
+                    <div class="mb-3">
+                        <p class="form-label text-start">Full name</p>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="MinhHN">
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-label text-start">Phone number</p>
+                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                            placeholder="012345xxx">
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-label text-start">Email</p>
+                        <input type="text" class="form-control" id="formGroupExampleInput"
+                            placeholder="Nhatminh7721@gmail.com">
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-label text-start">Address</p>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="176, Tây Sơn"></textarea>
+                    </div>
+                    <button type="button" class="float-start btn btn-primary delivery__btn">Confirm Order</button>
+                </fieldset>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <!-- End food-order -->
+
+
+    <!-- Start Contact -->
+    <div id="footer" class="text-center">
+        <div class="container">
+            <div class="social">
+                <a href="https://www.facebook.com/HNMinh77"><img
+                        src="https://img.icons8.com/color/48/000000/facebook-circled--v3.png" /></a>
+                <a href="https://www.instagram.com/minhhn_77/"><img
+                        src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+                <a href="https://vt.tiktok.com/ZSJEgqUD3/"><img
+                        src="https://img.icons8.com/color/48/000000/tiktok.png" /></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.facebook.com/HNMinh77/">MinhHN</a></p>
+        </div>
+    </div>
+    <!-- End contact -->
+    <script src="./bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
